@@ -6,11 +6,11 @@ using EFT.Trainer;
 using JetBrains.Annotations;
 using UnityEngine.SceneManagement;
 
-[BepInPlugin(PluginId, "SPT.EftTrainer", "1.0.0")]
+[BepInPlugin(PluginId, "SPT.TestPlugin", "1.0.0")]
 [UsedImplicitly]
 public class SptEftTrainerPlugin : BaseUnityPlugin
 {
-	private const string PluginId = "com.SPT.efttrainer";
+	private const string PluginId = "com.SPT.TestPlugin";
 	public static bool Loaded = false;
 
 	[UsedImplicitly]
